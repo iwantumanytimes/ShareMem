@@ -4,6 +4,7 @@
 int main()
 {
  
-	share_mem_creater   smc("share_mem_0", 1024);
+	std::string szName("share_mem0");
+	share_mem_creater   smc(szName);
 	return 1;
 }
